@@ -76,4 +76,5 @@ baltimoreVsLosAngelesCar %>%
   ggplot(aes(factor(year),`Total Pollution`,fill = city))+
   geom_bar(stat="identity",position = "dodge")+
   xlab("Year")+
-  ggtitle("Comparision of vehicle emmisions in Los Angeles and Baltimore")
+  ggtitle("Comparision of vehicle emmisions in Los Angeles and Baltimore")+
+  theme_minimal()
